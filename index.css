@@ -19,8 +19,8 @@ body {
 --dark-300: rgb(31, 31, 31, 0.3);
 
 --dark-bg-solid: #30343F;
---light-bg-solid: #30343f;
---light-font-solid: #ffF;
+--light-bg-solid: #FAFAFF;
+--light-font-solid: #FFF;
 
 /*Tipografia */
 --base-font: 'Inter', sans-serif;
@@ -353,7 +353,7 @@ header {
 /* Footer */
 
 .footer {
-    background-color: violet;
+    background-color: var(--dark-bg-solid);
     padding: var(--spacing-68);
 }
 
