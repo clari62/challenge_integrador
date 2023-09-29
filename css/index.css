@@ -278,7 +278,7 @@ header {
    display: flex;
    flex-direction: column;
    gap: var(--spacing-36);
-   margin: var(--spacing-68) auto;
+   margin: 10px auto;
 }
 
 .slider__title {
@@ -374,29 +374,90 @@ header {
 }
 
 
+
+
+
+
 /*          SHOP                   */
 
 
+
+
+
+
+
+.theBigContainer{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 40px 80px;
+}
 .aside {
     display: flex;
-    
+    width: 30%;
 }
 
 form {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    padding: 20px;
-    overflow-y: auto;
-    padding: var(--spacing-8) var(--spacing-12);
-    position: absolute;
-    margin: var(--spacing-68) auto;
+    width: 243.04px;
+    height: 493.93px;
+    top: 212px;
+    left: 110px;
+    border-radius: 6px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 label {
     display: block;
     margin-top: 10px;
+}
+
+.precioMinimoYMaximo{
+    width: 234.29px;
+    height: 27.52px;
+    top: 485.57px;
+    left: 110px;
+    border-radius: 6px;
+
+}
+
+.precioMinimoYMaximo label{
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.precioMinimoYMaximo input{
+    border: 2px solid #30343F;
+    border-radius: 6px;
+    width: 59.14px;
+    height: 27.52px;
+}
+
+.filtrar label{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+    padding-bottom: 5px;
+}
+.filtrar input{
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    border: 2px solid #30343F;
 }
 
 select {
